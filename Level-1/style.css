@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+    color: black;
+}
+.calculator {
+    width: 250px;
+    margin: 50px auto;
+    background: #e3f9e3;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#display {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.buttons {
+    height: 50vh;
+    width: 30vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+button {
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+button:hover {
+    background-color: grey;
+}
